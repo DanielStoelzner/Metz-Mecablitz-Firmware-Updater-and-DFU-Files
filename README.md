@@ -6,13 +6,13 @@ This is the original firmware updater for the following Metz models:
 - Mecablitz 64 AF-1
 - Mecalight L1000
 
-The firmware files are currently (29.12.2024) still hosted on `https://metz.de`.
+The firmware files are currently (01.05.2025) still hosted on `https://metz.de`.
 
 You can download them yourself via `https://metz.de/firmware/<filename>` (find file names below)
 
-This repository contains backups of all the available DFU files (it should be possible to install them via 'dfu-util').
-DFU files are downloaded to `C:\Users\<username>\AppData\Local\Metz mecatech GmbH\mecablitz Firmware Updater\mecatech\..`
-The tool doesn't seem to use already existing DFU files. If Metz ever removes the DFU files from their server then this tool will therefore become absolete. 
+This repository contains backups of all the available DFU files.
+When using the updater, DFU files are downloaded to `C:\Users\<username>\AppData\Local\Metz mecatech GmbH\mecablitz Firmware Updater\mecatech\..`
+The tool doesn't seem to use already existing DFU files. If Metz ever removes the DFU files from their server then this tool will therefore become absolete. In that case, the firmware can be updated with the included 'dfu-util' CLI and the DFU files from this repository.
 
 # Files
 
