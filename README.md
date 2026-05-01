@@ -12,6 +12,7 @@ You can download them yourself via `https://metz.de/firmware/<filename>` (find f
 
 This repository contains backups of all the available DFU files.
 When using the updater, DFU files are downloaded to `C:\Users\<username>\AppData\Local\Metz mecatech GmbH\mecablitz Firmware Updater\mecatech\..`
+
 The tool doesn't seem to use already existing DFU files. If Metz ever removes the DFU files from their server then this tool will therefore become absolete. In that case, the firmware can be updated with the included 'dfu-util' CLI and the DFU files from this repository.
 
 # Files
