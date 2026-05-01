@@ -35,4 +35,8 @@ The tool doesn't seem to use already existing DFU files. If Metz ever removes th
 - MB640174.dfu - 64AF-1 Sony 
 - MB1001a0.dfu - L1000
 
+# Additional Content
 
+This repository also contains the latest updater for the Pentax version of the 44 AF-1, 48 AF-1, 50 AF-1, 58 AF-1 and 58 AF-2.
+
+This might be the last remaining relaibale source of the updater.
