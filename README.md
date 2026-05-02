@@ -6,14 +6,11 @@ This is the original firmware updater for the following Metz models:
 - Mecablitz 64 AF-1
 - Mecalight L1000
 
-The firmware files are currently (May 2026) still hosted on `https://metz.de`.
+The updater for many other models is still downloadable from other sources, and these updaters include the corresponding *.mtz firmware file. For the models M360, M400, 64 AF-1, and L1000, Metz changed the updater so that it no longer includes the firmware file and instead downloads the firmware as a *.dfu file from their server. Surprisingly, this still seems to work as of May 2026, but the server will likely be taken offline at some point in the future. That is why I created this repository. It contains all the *.dfu files that I could find. When the server is taken offline and the updater becomes useless, these files can still be installed using the `dfu-util` CLI that comes with the updater.
 
-You can download them yourself via `https://metz.de/firmware/<filename>` (find file names below)
+The firmware files are currently (May 2026) still hosted on `https://metz.de` and you can download them yourself via `https://metz.de/firmware/<filename>` (find file names below).
 
-This repository contains backups of all the available DFU files.
-When using the updater, DFU files are downloaded to `C:\Users\<username>\AppData\Local\Metz mecatech GmbH\mecablitz Firmware Updater\mecatech\..`
-
-The tool doesn't seem to use already existing DFU files. If Metz ever removes the DFU files from their server then this tool will therefore become absolete. In that case, the firmware can be updated with the included 'dfu-util' CLI and the DFU files from this repository.
+When using the updater, *.dfu files are downloaded to `C:\Users\<username>\AppData\Local\Metz mecatech GmbH\mecablitz Firmware Updater\mecatech\..` but the updater doesn't seem to use already existing *.dfu files in that directory.
 
 # Files
 
@@ -34,6 +31,12 @@ The tool doesn't seem to use already existing DFU files. If Metz ever removes th
 - MB640173.dfu - 64AF-1 Pentax 
 - MB640174.dfu - 64AF-1 Sony 
 - MB1001a0.dfu - L1000
+
+# Instructions
+
+As of May 2026, all you need to update your flash is `mecablitzinstall.exe`. This executable will extract the updater to `C:/mecablitz/` by default. From there, simply run `mecablitz.exe` and follow the instructions.
+
+When the server hosting the *.dfu files is taken offline then this updater will no longer work. In that case you can install the update by using the `dfu-util` CLI (C:/mecablitz/dfu-util/dfu-util.exe) and the *.dfu file from this repository that corresponds with your flash model. 
 
 # Additional Content
 
