@@ -40,6 +40,6 @@ When the server hosting the *.dfu files is taken offline then this updater will 
 
 # Additional Content
 
-This repository also contains the latest updater (V6.0) for the Pentax versions of the 44 AF-1, 48 AF-1, 50 AF-1, 58 AF-1, and 58 AF-2.
+This repository also contains the latest updater (V6.0) for the Pentax versions of the 44 AF-1, 48 AF-1, 50 AF-1, 58 AF-1, and 58 AF-2. This version adds support for the Pentax K1.
 
 This might be the last remaining reliable source of this particular updater.
