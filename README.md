@@ -6,7 +6,7 @@ This is the original firmware updater for the following Metz models:
 - Mecablitz 64 AF-1
 - Mecalight L1000
 
-The firmware files are currently (01.05.2025) still hosted on `https://metz.de`.
+The firmware files are currently (May 2026) still hosted on `https://metz.de`.
 
 You can download them yourself via `https://metz.de/firmware/<filename>` (find file names below)
 
@@ -37,6 +37,6 @@ The tool doesn't seem to use already existing DFU files. If Metz ever removes th
 
 # Additional Content
 
-This repository also contains the latest updater for the Pentax version of the 44 AF-1, 48 AF-1, 50 AF-1, 58 AF-1 and 58 AF-2.
+This repository also contains the latest updater for the Pentax versions of the 44 AF-1, 48 AF-1, 50 AF-1, 58 AF-1, and 58 AF-2.
 
-This might be the last remaining relaibale source of the updater.
+This might be the last remaining reliable source of the updater.
