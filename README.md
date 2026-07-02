@@ -36,7 +36,7 @@ When using the updater, *.dfu files are downloaded to `C:\Users\<username>\AppDa
 
 As of May 2026, all you need to update your flash is `mecablitzinstall.exe`. This executable will extract the updater to `C:\mecablitz` by default. From there, simply run `mecablitz.exe` and follow the instructions.
 
-When the server hosting the *.dfu files is taken offline then this updater will no longer work. In that case you can install the update by using the `dfu-util` CLI (`C:\mecablitz\dfu-util\dfu-util.exe`) and the *.dfu file from this repository that corresponds with your flash model. 
+When the server hosting the *.dfu files is taken offline, this updater will no longer work. In that case, you can install the update by using the `dfu-util` CLI (`C:\mecablitz\dfu-util\dfu-util.exe`) and the *.dfu file from this repository that corresponds to your flash model. 
 
 # Additional Content
 
